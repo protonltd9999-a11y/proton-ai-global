@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROTON AI GLOBAL</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #07111f;
+    color: white;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(135deg,#071a35,#102f59);
+    border-bottom: 1px solid #24558b;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #55c8ff;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #a9cce8;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px;
+    background: #0b192b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: 1px solid #24558b;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: #087fc1;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 20px;
+    background: linear-gradient(135deg,#102b50,#07111f);
+    border-radius: 18px;
+    border: 1px solid #24558b;
+}
+
+.hero h1 {
+    font-size: 34px;
+    color: #55c8ff;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    color: #c5d8ec;
+    line-height: 1.7;
+}
+
+.section-title {
+    margin: 40px 0 20px;
+    color: #55c8ff;
+    font-size: 23px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 18px;
+}
+
+.card {
+    padding: 25px;
+    background: #10233b;
+    border: 1px solid #24558b;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #55c8ff;
+}
+
+.card h3 {
+    color: #55c8ff;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #b7c9dd;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 12px;
+    background: #124b3c;
+    color: #70f0b5;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    background: #0b192b;
+    color: #91abc5;
+    line-height: 1.8;
+}
+
+button {
+    margin-top: 22px;
+    padding: 13px 25px;
+    background: #078bd
