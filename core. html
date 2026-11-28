@@ -1,0 +1,177 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROTON AI CORE</title><style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050d1a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: linear-gradient(135deg,#071a35,#123d70);
+    border-bottom: 1px solid #168bd1;
+}
+
+header h1 {
+    color: #55c8ff;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #b5d9f5;
+    margin-top: 12px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg,#102b50,#07111f);
+    border: 1px solid #168bd1;
+    border-radius: 18px;
+}
+
+.hero h2 {
+    color: #55c8ff;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.8;
+    color: #c5d8ec;
+}
+
+.section-title {
+    color: #55c8ff;
+    margin: 35px 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 18px;
+}
+
+.card {
+    background: #10233b;
+    border: 1px solid #24558b;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.card h3 {
+    color: #55c8ff;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #b7c9dd;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 12px;
+    background: #124b3c;
+    color: #70f0b5;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.chat {
+    margin-top: 30px;
+    padding: 25px;
+    background: #10233b;
+    border: 1px solid #24558b;
+    border-radius: 14px;
+}
+
+.chat input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #24558b;
+    background: #07111f;
+    color: white;
+}
+
+.chat button {
+    padding: 12px 22px;
+    margin-top: 12px;
+    background: #078bd0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    background: #0b192b;
+    color: #91abc5;
+}
+</style></head><body><header>
+<h1>PROTON AI CORE</h1>
+<p>GLOBAL INTELLIGENCE CENTER</p>
+<p>From Timor to the World</p>
+</header><div class="container"><section class="hero">
+<h2>WELCOME TO PROTON AI CORE</h2>
+<p>
+The central intelligence platform connecting
+education, research, business and global innovation.
+</p>
+</section><h2 class="section-title">INTELLIGENCE SYSTEMS</h2><div class="grid"><div class="card">
+<h3>AI INTELLIGENCE</h3>
+<p>Central artificial intelligence services.</p>
+<span class="status">In Development</span>
+</div><div class="card">
+<h3>AI KNOWLEDGE</h3>
+<p>Knowledge management and information center.</p>
+<span class="status">In Development</span>
+</div><div class="card">
+<h3>AI LANGUAGE</h3>
+<p>Multilingual communication and translation.</p>
+<span class="status">In Development</span>
+</div><div class="card">
+<h3>AI LEARNING</h3>
+<p>Intelligent educational support.</p>
+<span class="status">In Development</span>
+</div><div class="card">
+<h3>AI RESEARCH</h3>
+<p>Scientific research and analytical support.</p>
+<span class="status">In Development</span>
+</div><div class="card">
+<h3>AI INTEGRATION</h3>
+<p>Connecting all PROTON AI modules.</p>
+<span class="status">In Development</span>
+</div></div><section class="chat">
+<h2>PROTON AI ASSISTANT</h2>
+<p>AI interface preview. Live AI connection will be added later.</p>
+<input type="text" placeholder="Write your question here..." disabled>
+<button type="button" disabled>AI CONNECTION COMING SOON</button>
+</section></div><footer>
+PROTON AI DIGITAL CENTER<br>
+GLOBAL INTELLIGENCE • EDUCATION • RESEARCH<br>
+© 2026 PROTON AI GLOBAL
+</footer></body>
+</html>
